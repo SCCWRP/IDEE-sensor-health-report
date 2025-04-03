@@ -1,0 +1,11 @@
+docker/build.sh
+docker/deploy.sh
+reports/*
+plots/*
+test.py
+data/*
+sensor_metrics.db
+config.json
+test.py
+__pycache__/
+database.py
