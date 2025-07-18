@@ -47,4 +47,4 @@ The IDDE Health Report System offers comprehensive insights into sensor maintena
 If you have any questions, suggestions, or feedback, please feel free to contact us:
 
 - **Duy Nguyen**: [duyn@sccwrp.org](mailto:duyn@sccwrp.org)
-- **Edward Tiernan**: [edwardt@sccwrp.org](mailto:edwardt@sccwrp.org)
+- **Elizabeth Fassman-Beck**: [elizabethfb@sccwrp.org](mailto:elizabethfb@sccwrp.org)
