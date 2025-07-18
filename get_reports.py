@@ -12,13 +12,9 @@ from utils import *
 
 
 
-ODD_FILENAMES = {
-    'IDDE_CULVERT_DT.csv': 'CULVERT_RP_DT.csv',
-    'GOLF_CULVERT_RADAR.csv': 'CULVERT_BC_RAD.csv',
-    'IDDE_DIVERSION_DT.csv': 'DIVERSION_BC_DTTURB.csv',
-    'DIVERSION_RADAR.csv': 'DIVERSION_BC_RAD.csv', 
-    'DIVERSION_CAM': 'DIVERSION_BC_CAM'
-}
+with open('config.json', 'r') as f:
+    CONFIG = json.load(f)
+ODD_FILENAMES = CONFIG.get('ODD_FILENAMES', {})
 
 def get_reports():
     ############################################################ GENERATE SUMMARY REPORT ########################################################

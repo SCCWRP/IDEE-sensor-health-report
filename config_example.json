@@ -1,0 +1,16 @@
+{
+    "DATA_URL": "URL to sensor data",
+    "IMAGES_URL": "URL to images",
+    "MAIL_FROM": "Sender email address",
+    "MAIL_TO": ["Recipient email"],
+    "MAIL_SERVER": "SMTP server IP or hostname",
+    "VALID_PATTERNS": ["Sensor pattern"],
+    "CRITICAL_BATTERY_LIMIT": "Battery level threshold for critical status",
+    "ODD_FILENAMES": {
+        "Odd filename": "Mapped filename"
+    },
+    "LOW_BATTERY_LIMIT": "Battery level threshold for low status",
+    "MISSING_TIMESTAMP_CHECK": "Minutes between expected timestamps",
+    "IMAGE_QUALITY_THRESHOLD": "Minimum image quality ratio",
+    "EXPECTED_FREQUENCY_MIN": "Expected frequency in minutes"
+}
