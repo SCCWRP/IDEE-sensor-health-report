@@ -10,7 +10,7 @@ The IDDE Health Report System offers comprehensive insights into sensor maintena
 - **get_raw_data.py**: Responsible for collecting raw data, including scraping CSV files and image metadata.
 - **get_reports.py**: Processes the collected data to generate summary and detailed reports.
 - **utils.py**: Contains utility functions, including email sending and status determination.
-- **config.json**: Configuration file containing settings for data sources, thresholds, and email notifications.
+- **config_example.json**: Configuration file containing settings for data sources, thresholds, and email notifications.
 
 ## Summary Report
 - **Battery Status Monitoring**
